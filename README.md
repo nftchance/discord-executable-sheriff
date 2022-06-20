@@ -51,9 +51,13 @@ Allows you to define which channels have attachment sharing enabled. This could 
 Malicious 'code' in images come from the usage of metadata.
 
 ⚪ EXIF data - what camera was used, what lens, what exposure, GPS info and so on
+
 ⚪ ICC Colour Profiles for accurate colour reproduction
+
 ⚪ IPTC information - press and telecoms info, copyright, subject-matter tagging and so on
+
 ⚪ Geo-referencing and/or photogrammetry information - see GeoTIFF
+
 ⚪ comments - which can contain arbitrary information (and malware)
 
 The usage of this script re-enables the secure sharing of images by immediately removing the inclusion of any 'attachment' containing messages unless those attachments fall within the categories we've strictly defined.
